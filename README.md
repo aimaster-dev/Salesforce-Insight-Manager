@@ -95,7 +95,7 @@ SalesforceWindowsForms/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/your-username/salesforce-insight-manager.git
+   git clone https://github.com/aimaster-dev/salesforce-insight-manager.git
    ```
 2. **Open in Visual Studio** (2019 or later recommended)
 3. **Set up App.config** with your Salesforce credentials:
