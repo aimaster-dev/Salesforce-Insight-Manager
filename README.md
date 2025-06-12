@@ -75,17 +75,20 @@
 
 ```
 SalesforceWindowsForms/
-├── App.config                  # API keys, credentials, endpoints
-├── SalesforceConnect.cs       # Handles API connection and session
-├── Reports/
-│   ├── InactiveUsersReport.cs
-│   ├── DashboardUsageReport.cs
-├── Utils/
-│   ├── ExcelIgnoreListLoader.cs
-│   ├── ExportToExcel.cs
-├── Forms/
-│   ├── MainForm.cs
-│   ├── LoginForm.cs
+├── CollectionObjects/        # Data models for reports and dashboards
+├── DAL/                      # Data Access Layer – handles API calls and queries
+├── Properties/               # Assembly and app settings
+├── Resources/                # Embedded images, icons, and other UI assets
+├── View/                     # Windows Forms UI components and controls
+├── Web References/SFDC/      # Salesforce SOAP API client (auto-generated from WSDL)
+├── App.config                # App settings including Salesforce credentials and endpoints
+├── Form1.cs / Form1.Designer.cs / Form1.resx  # Main form UI and logic
+├── Program.cs                # Application entry point
+├── SalesforceWindowsForms.csproj # Project file
+├── packages.config           # NuGet package dependencies
+├── README.md                 # This documentation file
+├── .gitignore, .gitattributes
+├── SalesforceWindowsForms.sln  # Visual Studio solution file
 ```
 
 ---
